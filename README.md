@@ -9,9 +9,9 @@ flask run   			//for running flask app
 
 
 -------------------data base set up--------------------------------
- Create database Flask_task_db;
-CREATE USER 'Flask_task_user'@'localhost' IDENTIFIED BY 'Flask@123';
-GRANT ALL ON Flask_task_db.* TO 'Flask_task_user'@'localhost';
+Create database Flask_task_db1;
+CREATE USER 'Flask_task_user1'@'localhost' IDENTIFIED BY 'Pass123';
+GRANT ALL ON Flask_task_db1.* TO 'Flask_task_user1'@'localhost';
 FLUSH PRIVILEGES;
 
 
